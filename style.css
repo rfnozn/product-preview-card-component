@@ -127,6 +127,7 @@ h6 {
   font-weight: var(--fw-medium);
   line-height: var(--lh-lrg);
   letter-spacing: 0.3125em;
+  text-transform: uppercase;
 }
 .preset-5 {
   font-family: var(--ff-sans);
@@ -158,4 +159,7 @@ body {
   display: grid;
   gap: 1.5em;
   padding: 2em;
+}
+
+.product__category {
 }
