@@ -1,3 +1,35 @@
+/* 0. Custom properties */
+:root {
+  /* Primary colors */
+  --green-500: #3d8168;
+  --green-700: #1a4032;
+
+  /* Neutral colors */
+  --black: #1c232b;
+  --gray: #6c7289;
+  --cream: #f2eae2;
+  --white: #fff;
+
+  /* Font families */
+  --ff-serif: ;
+  --ff-sans: ;
+
+  /* Font sizes */
+  --fs-xlg: 2rem;
+  --fs-light: 0.875rem;
+  --fs-x-light: 0.8125rem;
+  --fs-thin: 0.75rem;
+
+  /* Font weights */
+  --fw-medium: 500;
+  --fw-bold: 700;
+
+  /* Line heights */
+  --lh-xlg: 1.6;
+  --lh-lrg: 1.2;
+  --lh-medium: 1.1;
+}
+
 /* 1. Use a more-intuitive box-sizing model */
 *,
 *::before,
@@ -43,4 +75,9 @@ h5,
 h6 {
   text-wrap: balance;
   overflow-wrap: break-word;
+}
+
+/* General style */
+body {
+  line-height: 1;
 }
