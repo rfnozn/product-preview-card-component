@@ -102,6 +102,38 @@ h6 {
   overflow-wrap: break-word;
 }
 
+/* utility classes */
+/* text styles */
+.preset-1 {
+  font-family: var(--ff-serif);
+  font-size: var(--fs-xlg);
+  font-weight: var(--fw-bold);
+}
+.preset-2 {
+  font-family: var(--ff-sans);
+  font-size: var(--fs-light);
+  font-weight: var(--fw-bold);
+  line-height: var(--lh-medium);
+}
+.preset-3 {
+  font-family: var(--ff-sans);
+  font-size: var(--fs-light);
+  font-weight: var(--fw-medium);
+  line-height: var(--lh-xlg);
+}
+.preset-4 {
+  font-family: var(--ff-sans);
+  font-size: var(--fs-thin);
+  font-weight: var(--fw-medium);
+  line-height: var(--lh-lrg);
+}
+.preset-5 {
+  font-family: var(--ff-sans);
+  font-size: var(--fs-x-light);
+  font-weight: var(--fw-medium);
+  line-height: var(--lh-lrg);
+}
+
 /* General style */
 body {
   line-height: 1;
