@@ -103,6 +103,20 @@ h6 {
 }
 
 /* utility classes */
+/* color styles */
+.gray {
+  color: var(--gray);
+}
+.black {
+  color: var(--black);
+}
+.green-500 {
+  color: var(--green-500);
+}
+.green-700 {
+  color: var(--green-700);
+}
+
 /* text styles */
 .preset-1 {
   font-family: var(--ff-serif);
@@ -159,7 +173,4 @@ body {
   display: grid;
   gap: 1.5em;
   padding: 2em;
-}
-
-.product__category {
 }
