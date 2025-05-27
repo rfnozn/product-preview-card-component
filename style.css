@@ -11,8 +11,8 @@
   --white: #fff;
 
   /* Font families */
-  --ff-serif: ;
-  --ff-sans: ;
+  --ff-serif: "Fraunces", serif;
+  --ff-sans: "Montserrat", sans-serif;
 
   /* Font sizes */
   --fs-xlg: 2rem;
@@ -105,4 +105,5 @@ h6 {
 /* General style */
 body {
   line-height: 1;
+  font-family: var(--ff-sans);
 }
