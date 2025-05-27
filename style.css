@@ -178,9 +178,16 @@ body {
 
 .product {
   display: grid;
+  grid-template-rows: 342px 408px;
   background-color: var(--white);
   border-radius: 0.5rem;
   overflow: hidden;
+}
+
+.product__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .product__content {
@@ -200,4 +207,13 @@ body {
     cursor: pointer;
     background-color: var(--green-700);
   }
+}
+
+.visually-hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
