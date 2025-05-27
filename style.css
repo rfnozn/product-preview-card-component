@@ -103,6 +103,14 @@ h6 {
 }
 
 /* utility classes */
+
+/* layout control */
+.flex-container {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
 /* text colors */
 .gray {
   color: var(--gray);
@@ -122,6 +130,7 @@ h6 {
 .white {
   color: var(--white);
 }
+
 /* text styles */
 .preset-1 {
   font-family: var(--ff-serif);
@@ -155,7 +164,7 @@ h6 {
   line-height: var(--lh-lrg);
 }
 
-/* General style */
+/* General styles */
 body {
   line-height: 1;
   font-family: var(--ff-sans);
