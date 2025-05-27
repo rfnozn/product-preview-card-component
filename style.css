@@ -103,7 +103,7 @@ h6 {
 }
 
 /* utility classes */
-/* color styles */
+/* text colors */
 .gray {
   color: var(--gray);
 }
@@ -116,7 +116,12 @@ h6 {
 .green-700 {
   color: var(--green-700);
 }
-
+.cream {
+  color: var(--cream);
+}
+.white {
+  color: var(--white);
+}
 /* text styles */
 .preset-1 {
   font-family: var(--ff-serif);
