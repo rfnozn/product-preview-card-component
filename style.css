@@ -146,3 +146,9 @@ body {
   place-content: center;
   margin-inline: 0.75rem;
 }
+
+.product {
+  display: grid;
+  background-color: var(--white);
+  border-radius: 0.5rem;
+}
