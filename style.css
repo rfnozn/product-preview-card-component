@@ -139,4 +139,10 @@ h6 {
 body {
   line-height: 1;
   font-family: var(--ff-sans);
+  background-color: var(--cream);
+
+  display: grid;
+  min-height: 100vh;
+  place-content: center;
+  margin-inline: 0.75rem;
 }
