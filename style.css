@@ -151,4 +151,5 @@ body {
   display: grid;
   background-color: var(--white);
   border-radius: 0.5rem;
+  overflow: hidden;
 }
