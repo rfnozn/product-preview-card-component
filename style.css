@@ -126,6 +126,7 @@ h6 {
   font-size: var(--fs-thin);
   font-weight: var(--fw-medium);
   line-height: var(--lh-lrg);
+  letter-spacing: 0.3125em;
 }
 .preset-5 {
   font-family: var(--ff-sans);
