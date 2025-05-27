@@ -153,3 +153,9 @@ body {
   border-radius: 0.5rem;
   overflow: hidden;
 }
+
+.product__content {
+  display: grid;
+  gap: 1.5em;
+  padding: 2em;
+}
