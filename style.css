@@ -202,11 +202,24 @@ body {
   border-radius: 0.5rem;
   padding: 1em 2em;
   background-color: var(--green-500);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+  transition: background 200ms ease-in-out;
 
   &:hover,
   &:focus {
     cursor: pointer;
     background-color: var(--green-700);
+  }
+
+  &::before {
+    content: "";
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    background-image: url("assets/images/icon-cart.svg");
   }
 }
 
